@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(245, 243, 243);
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+}
+
+
+.ip-container {
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    margin-bottom: 20px;
+}
+
+
+.ip-header {
+    font-size:medium;
+    color: black;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.firstpart {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.texts {
+   padding-left: 20px;
+}
+
+.subtitle {
+    font-size: small;
+    margin: 0;
+}
+
+.title {
+    font-weight:bolder;
+    margin: 0;
+}
+
+.threePoints {
+    padding: 10px;
+}
+
+.ip-header:has(.ip-photo) {
+    display: flex;
+    align-items: center;
+}
+
+.ip-photo {
+    display: block;
+}
+
+.ip-photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ip-comments {
+    padding-left: 10px;
+    display:flexbox;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.bookmarkIcon {
+    justify-content: right;
+    padding: 10px;
+}
+
+.ip-text {
+    font-weight:200px;
+}
